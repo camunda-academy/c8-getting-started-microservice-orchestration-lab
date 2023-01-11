@@ -6,7 +6,7 @@
 
   <groupId>com.camunda.academy</groupId>
   <artifactId>c8-getting-started-microservice-orchestration-lab</artifactId>
-  <version>1.0.0T</version>
+  <version>1.0.0</version>
 
   <name>c8-getting-started-microservice-orchestration-lab</name>
   <url>http://academy.camunda.com/c8-getting-started-microservice-orchestration</url>
