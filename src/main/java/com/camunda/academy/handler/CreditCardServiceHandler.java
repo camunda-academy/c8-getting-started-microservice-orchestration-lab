@@ -28,7 +28,7 @@ public class CreditCardServiceHandler implements JobHandler {
     	//Obtain the Process Variables
     	final Map<String, Object> inputVariables = job.getVariablesAsMap();
     	final String reference = (String) inputVariables.get(VARIABLE_REFERENCE);
-    	final Double amount = (Double) inputVariables.get(VARIABLE_AMOUNT);
+		final Double amount = ((Number) inputVariables.get(VARIABLE_AMOUNT)).doubleValue();
     	final String cardNumber = (String) inputVariables.get(VARIABLE_CARD_NUMBER);
     	final String cardExpiry = (String) inputVariables.get(VARIABLE_CARD_EXPIRY);
     	final String cardCVC =  (String) inputVariables.get(VARIABLE_CARD_CVC);
